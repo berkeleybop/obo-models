@@ -1,2 +1,2 @@
 merged.owl:
-	ontology-maker.pl
+	./ontology-maker.pl
