@@ -18,7 +18,7 @@ foreach my $ont (@onts) {
     my $tgt = "target/$fn";
     push(@tgts, $tgt);
     runcmd("wget --no-check-certificate $ont -O $stage.tmp && mv $stage.tmp $stage") unless -f $stage;
-    runcmd("owltools $stage --merge-imports-closure --extract-mingraph -o -f ttl --prefix OBO http://purl.obolibrary.org/obo/ $tgt.tmp && mv $tgt.tmp $tgt") unless -f $tgt;
+    runcmd("owltools $stage --merge-imports-closure --extract-mingraph --set-ontology-id $ont -o -f ttl --prefix OBO http://purl.obolibrary.org/obo/ $tgt.tmp && mv $tgt.tmp $tgt") unless -f $tgt;
 }
 
 print STDERR "COMBINING\n";
