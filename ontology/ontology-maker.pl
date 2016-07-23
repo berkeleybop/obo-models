@@ -10,6 +10,7 @@ while(<>) {
 mkdir "stage" unless -d "stage";
 mkdir "target" unless -d "target";
 foreach my $ont (@onts) {
+    print STDERR "MAKING: $ont\n";
     my @toks = split(/\//,$ont);
     my $fn = pop @toks;
     my $stage = "stage/$fn";
@@ -17,6 +18,8 @@ foreach my $ont (@onts) {
     runcmd("wget --no-check-certificate $ont -O $stage.tmp && mv $stage.tmp $stage") unless -f $stage;
     runcmd("owltools $stage --merge-imports-closure --extract-mingraph -o -f ttl --prefix OBO http://purl.obolibrary.org/obo/ $tgt.tmp && mv $tgt.tmp $tgt") unless -f $tgt;
 }
+
+print STDERR "COMBINING\n";
 
 runcmd("owltools target/*.owl --merge-support-ontologies  -o -f ttl --prefix OBO http://purl.obolibrary.org/obo/ merged.owl");
 exit 0;

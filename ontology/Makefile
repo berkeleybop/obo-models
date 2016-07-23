@@ -1,2 +1,2 @@
-merged.owl:
-	./ontology-maker.pl
+merged.owl: ontids.yml
+	./ontology-maker.pl ontids.yml
