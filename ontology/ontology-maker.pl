@@ -18,12 +18,12 @@ foreach my $ont (@onts) {
     my $tgt = "target/$fn";
     push(@tgts, $tgt);
     runcmd("wget --no-check-certificate $ont -O $stage.tmp && mv $stage.tmp $stage") unless -f $stage;
-    runcmd("owltools $stage --merge-imports-closure --extract-mingraph --set-ontology-id $ont -o -f ttl --prefix OBO http://purl.obolibrary.org/obo/ $tgt.tmp && mv $tgt.tmp $tgt") unless -f $tgt;
+    runcmd("owltools $stage --merge-imports-closure --extract-mingraph --set-ontology-id $ont -o  --prefix OBO http://purl.obolibrary.org/obo/ $tgt.tmp && mv $tgt.tmp $tgt") unless -f $tgt;
 }
 
 print STDERR "COMBINING\n";
 
-runcmd("owltools @tgts --merge-support-ontologies  -o -f ttl --prefix OBO http://purl.obolibrary.org/obo/ merged.owl");
+runcmd("owltools @tgts --merge-support-ontologies --set-ontology-id http://purl.obolibrary.org/obo/noctua/merged.owl -o -f owl --prefix OBO http://purl.obolibrary.org/obo/ merged.owl");
 exit 0;
 
 sub runcmd {
