@@ -1,0 +1,123 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5797e7f400000001>
+
+Import: <http://purl.obolibrary.org/obo/noctua/merged.owl>
+
+Annotations: 
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:5797e7f400000001\",\"individuals\":[{\"id\":\"gomodel:5797e7f400000001/5797e7f400000004\",\"type\":[{\"type\":\"class\",\"id\":\"GO:0003990\",\"label\":\"acetylcholinesterase activity\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"GOC:sjc\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"265\"},{\"key\":\"date\",\"value\":\"2016-07-27\"},{\"key\":\"hint-layout-x\",\"value\":\"422\"}]},{\"id\":\"gomodel:5797e7f400000001/5797e7f400000003\",\"type\":[{\"type\":\"class\",\"id\":\"DOID:14330\",\"label\":\"Parkinson\\u0027s disease\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"328\"},{\"key\":\"contributor\",\"value\":\"GOC:sjc\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-27\"},{\"key\":\"hint-layout-x\",\"value\":\"90\"}]},{\"id\":\"gomodel:5797e7f400000001/5797e7f400000002\",\"type\":[{\"type\":\"class\",\"id\":\"HGNC:983\",\"label\":\"BCHE (human)\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"GOC:sjc\"},{\"key\":\"hint-layout-y\",\"value\":\"118\"},{\"key\":\"hint-layout-x\",\"value\":\"381\"},{\"key\":\"date\",\"value\":\"2016-07-27\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"}]}],\"facts\":[],\"annotations\":[{\"key\":\"state\",\"value\":\"development\"},{\"key\":\"date\",\"value\":\"2016-07-27\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"contributor\",\"value\":\"GOC:sjc\"},{\"key\":\"title\",\"value\":\"totally random model\"}]}"^^xsd:string,
+    <http://geneontology.org/lego/modelstate> "development"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "GOC:sjc"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/date> "2016-07-27"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/title> "totally random model"^^xsd:string,
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://www.geneontology.org/formats/oboInOwl#id> "gomodel:5797e7f400000001"^^xsd:string
+
+AnnotationProperty: <http://geneontology.org/lego/derived>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/x>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/y>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/json-model>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/modelstate>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_14330>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "DOID:14330"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/GO_0003990>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "GO:0003990"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HGNC_983>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "HGNC:983"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5797e7f400000001/5797e7f400000002>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:sjc"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "118"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "381"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-27"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HGNC_983>
+    
+    
+Individual: <http://model.geneontology.org/5797e7f400000001/5797e7f400000003>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/y> "328"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:sjc"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-27"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "90"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_14330>
+    
+    
+Individual: <http://model.geneontology.org/5797e7f400000001/5797e7f400000004>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:sjc"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "265"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-27"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "422"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/GO_0003990>
+    
+    
