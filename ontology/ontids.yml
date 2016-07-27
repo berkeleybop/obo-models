@@ -11,4 +11,8 @@
 - http://purl.obolibrary.org/obo/eo.obo
 - http://purl.obolibrary.org/obo/hao.obo
 - http://purl.obolibrary.org/obo/wbphenotype.obo
-- http://purl.obolibrary.org/obo/obi.obo
+- http://purl.obolibrary.org/obo/obi.owl
+- http://purl.obolibrary.org/obo/bco.owl
+- http://purl.obolibrary.org/obo/pco.owl
+
+
