@@ -1,0 +1,79 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5798651000000000>
+
+Import: <http://purl.obolibrary.org/obo/noctua/merged.owl>
+
+Annotations: 
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:5798651000000000\",\"individuals\":[{\"id\":\"gomodel:5798651000000000/5798651000000001\",\"type\":[{\"type\":\"class\",\"id\":\"ENVO:0010093\",\"label\":\"cooked food product\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-07-27\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"hint-layout-y\",\"value\":\"75\"},{\"key\":\"hint-layout-x\",\"value\":\"75\"}]}],\"facts\":[],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-07-27\"},{\"key\":\"title\",\"value\":\"Empty Test Model\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"state\",\"value\":\"delete\"}]}"^^xsd:string,
+    <http://geneontology.org/lego/modelstate> "delete"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/date> "2016-07-27"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/title> "Empty Test Model"^^xsd:string,
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://www.geneontology.org/formats/oboInOwl#id> "gomodel:5798651000000000"^^xsd:string
+
+AnnotationProperty: <http://geneontology.org/lego/derived>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/x>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/y>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/json-model>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/modelstate>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+Class: <http://purl.obolibrary.org/obo/ENVO_0010093>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "ENVO:0010093"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5798651000000000/5798651000000001>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/date> "2016-07-27"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "75"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "75"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/ENVO_0010093>
+    
+    
