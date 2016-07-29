@@ -14,8 +14,9 @@ Annotations:
     
     Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
                 
-                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:5798651000000002\",\"individuals\":[{\"id\":\"gomodel:5798651000000002/5798651000000003\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0009680\",\"label\":\"set of upper jaw teeth\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"378\"},{\"key\":\"hint-layout-y\",\"value\":\"100\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000010\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0010879\",\"label\":\"tusk\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000008\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0001723\",\"label\":\"tongue\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000009\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0001833\",\"label\":\"lip\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000006\",\"type\":[{\"type\":\"class\",\"id\":\"PATO:0002258\",\"label\":\"pointed\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"312\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-x\",\"value\":\"627\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000005\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0000165\",\"label\":\"mouth\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"273\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-x\",\"value\":\"58\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000004\",\"type\":[{\"type\":\"class\",\"id\":\"PATO:0001419\",\"label\":\"sharp\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"188\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-x\",\"value\":\"743\"}]}],\"facts\":[{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000010\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000008\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000003\",\"property\":\"RO:0000053\",\"property-label\":\"bearer of\",\"object\":\"gomodel:5798651000000002/5798651000000004\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000009\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000003\",\"property\":\"RO:0000053\",\"property-label\":\"bearer of\",\"object\":\"gomodel:5798651000000002/5798651000000006\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000003\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]}],\"annotations\":[{\"key\":\"state\",\"value\":\"development\"},{\"key\":\"title\",\"value\":\"rabbit with sharp teeth\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]}"^^xsd:string,
+                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:5798651000000002\",\"individuals\":[{\"id\":\"gomodel:5798651000000002/5798651000000003\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0009680\",\"label\":\"set of upper jaw teeth\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"106\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-x\",\"value\":\"76\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000033\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0001727\",\"label\":\"taste bud\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"429\"},{\"key\":\"hint-layout-x\",\"value\":\"562\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000010\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0010879\",\"label\":\"tusk\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"496\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-y\",\"value\":\"237\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000008\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0001723\",\"label\":\"tongue\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"423\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"hint-layout-x\",\"value\":\"249.25\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000009\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0001833\",\"label\":\"lip\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"318\"},{\"key\":\"hint-layout-x\",\"value\":\"493.5\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000006\",\"type\":[{\"type\":\"class\",\"id\":\"PATO:0002258\",\"label\":\"pointed\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-y\",\"value\":\"151\"},{\"key\":\"hint-layout-x\",\"value\":\"379\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000005\",\"type\":[{\"type\":\"class\",\"id\":\"UBERON:0000165\",\"label\":\"mouth\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"hint-layout-y\",\"value\":\"285\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-x\",\"value\":\"74\"}]},{\"id\":\"gomodel:5798651000000002/5798651000000004\",\"type\":[{\"type\":\"class\",\"id\":\"PATO:0001419\",\"label\":\"sharp\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"377\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-y\",\"value\":\"56\"}]}],\"facts\":[{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000010\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000008\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000033\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"GOC:kltm\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000008\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000003\",\"property\":\"RO:0000053\",\"property-label\":\"bearer of\",\"object\":\"gomodel:5798651000000002/5798651000000004\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000009\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000003\",\"property\":\"RO:0000053\",\"property-label\":\"bearer of\",\"object\":\"gomodel:5798651000000002/5798651000000006\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000002/5798651000000005\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:5798651000000002/5798651000000003\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]}],\"annotations\":[{\"key\":\"state\",\"value\":\"development\"},{\"key\":\"title\",\"value\":\"rabbit with sharp teeth\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"GOC:kltm\"}]}"^^xsd:string,
     <http://geneontology.org/lego/modelstate> "development"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
     <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
     <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
     <http://purl.org/dc/elements/1.1/title> "rabbit with sharp teeth"^^xsd:string,
@@ -95,6 +96,14 @@ Class: <http://purl.obolibrary.org/obo/UBERON_0001723>
         <http://www.geneontology.org/formats/oboInOwl#id> "UBERON:0001723"^^xsd:string
     
     
+Class: <http://purl.obolibrary.org/obo/UBERON_0001727>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "UBERON:0001727"^^xsd:string
+    
+    
 Class: <http://purl.obolibrary.org/obo/UBERON_0001833>
 
     Annotations: 
@@ -122,9 +131,10 @@ Class: <http://purl.obolibrary.org/obo/UBERON_0010879>
 Individual: <http://model.geneontology.org/5798651000000002/5798651000000003>
 
     Annotations: 
-        <http://geneontology.org/lego/hint/layout/x> "378"^^xsd:string,
-        <http://geneontology.org/lego/hint/layout/y> "100"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "106"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
         <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "76"^^xsd:string,
         <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string
     
     Types: 
@@ -146,10 +156,11 @@ Individual: <http://model.geneontology.org/5798651000000002/5798651000000003>
 Individual: <http://model.geneontology.org/5798651000000002/5798651000000004>
 
     Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "377"^^xsd:string,
         <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
-        <http://geneontology.org/lego/hint/layout/y> "188"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
         <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
-        <http://geneontology.org/lego/hint/layout/x> "743"^^xsd:string
+        <http://geneontology.org/lego/hint/layout/y> "56"^^xsd:string
     
     Types: 
         <http://purl.obolibrary.org/obo/PATO_0001419>
@@ -159,9 +170,10 @@ Individual: <http://model.geneontology.org/5798651000000002/5798651000000005>
 
     Annotations: 
         <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
-        <http://geneontology.org/lego/hint/layout/y> "273"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "285"^^xsd:string,
         <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
-        <http://geneontology.org/lego/hint/layout/x> "58"^^xsd:string
+        <http://geneontology.org/lego/hint/layout/x> "74"^^xsd:string
     
     Types: 
         <http://purl.obolibrary.org/obo/UBERON_0000165>
@@ -192,10 +204,11 @@ Individual: <http://model.geneontology.org/5798651000000002/5798651000000005>
 Individual: <http://model.geneontology.org/5798651000000002/5798651000000006>
 
     Annotations: 
-        <http://geneontology.org/lego/hint/layout/y> "312"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
         <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
         <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
-        <http://geneontology.org/lego/hint/layout/x> "627"^^xsd:string
+        <http://geneontology.org/lego/hint/layout/y> "151"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "379"^^xsd:string
     
     Types: 
         <http://purl.obolibrary.org/obo/PATO_0002258>
@@ -205,17 +218,30 @@ Individual: <http://model.geneontology.org/5798651000000002/5798651000000008>
 
     Annotations: 
         <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
-        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+        <http://geneontology.org/lego/hint/layout/y> "423"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "249.25"^^xsd:string
     
     Types: 
         <http://purl.obolibrary.org/obo/UBERON_0001723>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5798651000000002/5798651000000033>
     
     
 Individual: <http://model.geneontology.org/5798651000000002/5798651000000009>
 
     Annotations: 
+        <http://geneontology.org/lego/hint/layout/y> "318"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "493.5"^^xsd:string,
         <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
-        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string
     
     Types: 
         <http://purl.obolibrary.org/obo/UBERON_0001833>
@@ -224,10 +250,25 @@ Individual: <http://model.geneontology.org/5798651000000002/5798651000000009>
 Individual: <http://model.geneontology.org/5798651000000002/5798651000000010>
 
     Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "496"^^xsd:string,
         <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "237"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string,
         <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string
     
     Types: 
         <http://purl.obolibrary.org/obo/UBERON_0010879>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000002/5798651000000033>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/y> "429"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "562"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "GOC:kltm"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/UBERON_0001727>
     
     
