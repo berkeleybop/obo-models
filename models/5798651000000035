@@ -1,0 +1,289 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5798651000000035>
+
+Import: <http://purl.obolibrary.org/obo/noctua/merged.owl>
+
+Annotations: 
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:5798651000000035\",\"individuals\":[{\"id\":\"gomodel:5798651000000035/5798651000000039\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000067\",\"label\":\"evaluant role\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"537\"},{\"key\":\"hint-layout-x\",\"value\":\"699\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000038\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000443\",\"label\":\"analyte assay\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"315\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-y\",\"value\":\"496\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000037\",\"type\":[{\"type\":\"class\",\"id\":\"IAO:0000032\",\"label\":\"scalar measurement datum\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"336\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-x\",\"value\":\"791\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000036\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000795\",\"label\":\"glucometer\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"591\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"232\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000044\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000453\",\"label\":\"measure function\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"100\"},{\"key\":\"hint-layout-x\",\"value\":\"550\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000043\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000422\",\"label\":\"syringe\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"48\"},{\"key\":\"hint-layout-x\",\"value\":\"166\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000042\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000522\",\"label\":\"vial\"}],\"annotations\":[{\"key\":\"hint-layout-y\",\"value\":\"30\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-x\",\"value\":\"430\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000041\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000112\",\"label\":\"specimen role\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-x\",\"value\":\"81\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-y\",\"value\":\"500\"}]},{\"id\":\"gomodel:5798651000000035/5798651000000040\",\"type\":[{\"type\":\"class\",\"id\":\"OBI:0000655\",\"label\":\"blood specimen\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"129\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"hint-layout-y\",\"value\":\"189\"}]}],\"facts\":[{\"subject\":\"gomodel:5798651000000035/5798651000000036\",\"property\":\"BFO:0000053\",\"property-label\":\"is bearer of\",\"object\":\"gomodel:5798651000000035/5798651000000044\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000035/5798651000000038\",\"property\":\"OBI:0000293\",\"property-label\":\"has_specified_input\",\"object\":\"gomodel:5798651000000035/5798651000000036\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000035/5798651000000038\",\"property\":\"OBI:0000299\",\"property-label\":\"has_specified_output\",\"object\":\"gomodel:5798651000000035/5798651000000037\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000035/5798651000000044\",\"property\":\"BFO:0000054\",\"property-label\":\"realized in\",\"object\":\"gomodel:5798651000000035/5798651000000038\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:5798651000000035/5798651000000039\",\"property\":\"BFO:0000054\",\"property-label\":\"realized in\",\"object\":\"gomodel:5798651000000035/5798651000000038\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]}],\"annotations\":[{\"key\":\"state\",\"value\":\"development\"},{\"key\":\"comment\",\"value\":\"http://journals.plos.org/plosone/article?id\\u003d10.1371/journal.pone.0154556 \\n\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"},{\"key\":\"title\",\"value\":\"Demo experiment\"}]}"^^xsd:string,
+    <http://geneontology.org/lego/modelstate> "development"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/title> "Demo experiment"^^xsd:string,
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://www.geneontology.org/formats/oboInOwl#id> "gomodel:5798651000000035"^^xsd:string,
+    rdfs:comment "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154556 
+"^^xsd:string
+
+AnnotationProperty: <http://geneontology.org/lego/derived>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/x>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/y>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/json-model>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/modelstate>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000053>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000054>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/OBI_0000293>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/OBI_0000299>
+
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000032>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "IAO:0000032"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000067>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000067"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000112>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000112"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000422>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000422"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000443>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000443"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000453>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000453"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000522>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000522"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000655>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000655"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OBI_0000795>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "OBI:0000795"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000036>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "591"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "232"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000795>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000053>  <http://model.geneontology.org/5798651000000035/5798651000000044>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000037>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/y> "336"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "791"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000032>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000038>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "315"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "496"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000443>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/OBI_0000293>  <http://model.geneontology.org/5798651000000035/5798651000000036>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/OBI_0000299>  <http://model.geneontology.org/5798651000000035/5798651000000037>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000039>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/y> "537"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "699"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000067>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000054>  <http://model.geneontology.org/5798651000000035/5798651000000038>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000040>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "129"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "189"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000655>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000041>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "81"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "500"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000112>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000042>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/y> "30"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "430"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000522>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000043>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "48"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "166"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000422>
+    
+    
+Individual: <http://model.geneontology.org/5798651000000035/5798651000000044>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "100"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "550"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/OBI_0000453>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000054>  <http://model.geneontology.org/5798651000000035/5798651000000038>
+    
+    
