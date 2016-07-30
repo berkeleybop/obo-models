@@ -1,0 +1,209 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/579bd2a500000002>
+
+Import: <http://purl.obolibrary.org/obo/noctua/merged.owl>
+
+Annotations: 
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:579bd2a500000002\",\"individuals\":[{\"id\":\"gomodel:579bd2a500000002/579bd2a500000010\",\"type\":[{\"type\":\"class\",\"id\":\"ENVO:02500004\",\"label\":\"greenhouse effect\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"1011\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"89\"},{\"key\":\"date\",\"value\":\"2016-07-30\"}]},{\"id\":\"gomodel:579bd2a500000002/579bd2a500000008\",\"type\":[{\"type\":\"class\",\"id\":\"TO:0000058\",\"label\":\"herbicide sensitivity\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"295\"},{\"key\":\"date\",\"value\":\"2016-07-30\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"423\"}]},{\"id\":\"gomodel:579bd2a500000002/579bd2a500000006\",\"type\":[{\"type\":\"class\",\"id\":\"ENVO:01000769\",\"label\":\"carbon dioxide emission process\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"792\"},{\"key\":\"hint-layout-y\",\"value\":\"198\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-30\"}]},{\"id\":\"gomodel:579bd2a500000002/579bd2a500000005\",\"type\":[{\"type\":\"class\",\"id\":\"EO:0007183\",\"label\":\"herbicide treatment\"}],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-x\",\"value\":\"298\"},{\"key\":\"hint-layout-y\",\"value\":\"163\"},{\"key\":\"date\",\"value\":\"2016-07-30\"}]},{\"id\":\"gomodel:579bd2a500000002/579bd2a500000009\",\"type\":[{\"type\":\"class\",\"id\":\"NCBITaxon:4577\",\"label\":\"Zea mays\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-07-30\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"301\"},{\"key\":\"hint-layout-x\",\"value\":\"143\"}]},{\"id\":\"gomodel:579bd2a500000002/579bd2a500000003\",\"type\":[{\"type\":\"class\",\"id\":\"AGRO:00000002\",\"label\":\"tillage process\"}],\"annotations\":[{\"key\":\"hint-layout-x\",\"value\":\"474\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"hint-layout-y\",\"value\":\"39\"},{\"key\":\"date\",\"value\":\"2016-07-30\"}]}],\"facts\":[{\"subject\":\"gomodel:579bd2a500000002/579bd2a500000008\",\"property\":\"BFO:0000052\",\"property-label\":\"inheres in\",\"object\":\"gomodel:579bd2a500000002/579bd2a500000009\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:579bd2a500000002/579bd2a500000003\",\"property\":\"BFO:0000051\",\"property-label\":\"has_part\",\"object\":\"gomodel:579bd2a500000002/579bd2a500000006\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]},{\"subject\":\"gomodel:579bd2a500000002/579bd2a500000006\",\"property\":\"BFO:0000050\",\"property-label\":\"part_of\",\"object\":\"gomodel:579bd2a500000002/579bd2a500000010\",\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-29\"}]}],\"annotations\":[{\"key\":\"state\",\"value\":\"development\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-6601-2165\"},{\"key\":\"date\",\"value\":\"2016-07-30\"},{\"key\":\"title\",\"value\":\"agriculture example\"}]}"^^xsd:string,
+    <http://geneontology.org/lego/modelstate> "development"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/title> "agriculture example"^^xsd:string,
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://www.geneontology.org/formats/oboInOwl#id> "gomodel:579bd2a500000002"^^xsd:string
+
+AnnotationProperty: <http://geneontology.org/lego/derived>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/x>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/y>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/json-model>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/modelstate>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000050>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000052>
+
+    
+Class: <http://purl.obolibrary.org/obo/AGRO_00000002>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "AGRO:00000002"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ENVO_01000769>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "ENVO:01000769"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ENVO_02500004>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "ENVO:02500004"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/EO_0007183>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "EO:0007183"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/NCBITaxon_4577>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "NCBITaxon:4577"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/TO_0000058>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "TO:0000058"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000002/579bd2a500000003>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "474"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "39"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/AGRO_00000002>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/579bd2a500000002/579bd2a500000006>
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000002/579bd2a500000005>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "298"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "163"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/EO_0007183>
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000002/579bd2a500000006>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "792"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "198"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/ENVO_01000769>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000050>  <http://model.geneontology.org/579bd2a500000002/579bd2a500000010>
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000002/579bd2a500000008>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "295"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "423"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/TO_0000058>
+    
+    Facts:  
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string, 
+                 <http://purl.org/dc/elements/1.1/date> "2016-07-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000052>  <http://model.geneontology.org/579bd2a500000002/579bd2a500000009>
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000002/579bd2a500000009>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "301"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "143"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/NCBITaxon_4577>
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000002/579bd2a500000010>
+
+    Annotations: 
+        <http://geneontology.org/lego/hint/layout/x> "1011"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-6601-2165"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "89"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/date> "2016-07-30"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/ENVO_02500004>
+    
+    
