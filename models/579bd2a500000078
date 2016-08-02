@@ -1,0 +1,79 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/579bd2a500000078>
+
+Import: <http://purl.obolibrary.org/obo/noctua/merged.owl>
+
+Annotations: 
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://geneontology.org/lego/json-model> "{\"id\":\"gomodel:579bd2a500000078\",\"individuals\":[{\"id\":\"gomodel:579bd2a500000078/579bd2a500000079\",\"type\":[{\"type\":\"class\",\"id\":\"CHEBI:35776\",\"label\":\"arsenic oxoanion\"}],\"annotations\":[{\"key\":\"date\",\"value\":\"2016-08-02\"},{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-1643-6242\"},{\"key\":\"hint-layout-x\",\"value\":\"75\"},{\"key\":\"hint-layout-y\",\"value\":\"75\"}]}],\"facts\":[],\"annotations\":[{\"key\":\"contributor\",\"value\":\"http://orcid.org/0000-0002-1643-6242\"},{\"key\":\"state\",\"value\":\"development\"},{\"key\":\"title\",\"value\":\"NeedsTitle\"},{\"key\":\"date\",\"value\":\"2016-08-02\"}]}"^^xsd:string,
+    <http://geneontology.org/lego/modelstate> "development"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-1643-6242"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/date> "2016-08-02"^^xsd:string,
+    <http://purl.org/dc/elements/1.1/title> "NeedsTitle"^^xsd:string,
+    
+    Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+                
+                <http://www.geneontology.org/formats/oboInOwl#id> "gomodel:579bd2a500000078"^^xsd:string
+
+AnnotationProperty: <http://geneontology.org/lego/derived>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/x>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/hint/layout/y>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/json-model>
+
+    
+AnnotationProperty: <http://geneontology.org/lego/modelstate>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+Class: <http://purl.obolibrary.org/obo/CHEBI_35776>
+
+    Annotations: 
+        
+            Annotations: <http://geneontology.org/lego/derived> "true"^^xsd:string
+        <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:35776"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/579bd2a500000078/579bd2a500000079>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/date> "2016-08-02"^^xsd:string,
+        <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-1643-6242"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/x> "75"^^xsd:string,
+        <http://geneontology.org/lego/hint/layout/y> "75"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/CHEBI_35776>
+    
+    
