@@ -27,7 +27,7 @@ foreach my $ont (@onts) {
 
 print STDERR "COMBINING\n";
 
-runcmd("owltools @tgts --merge-support-ontologies --set-ontology-id http://purl.obolibrary.org/obo/noctua/merged.owl -o -f owl --prefix OBO http://purl.obolibrary.org/obo/ merged.owl");
+runcmd("owltools @tgts --merge-support-ontologies --set-ontology-id http://purl.obolibrary.org/obo/go/noctua-obo/merged.owl -o -f owl --prefix OBO http://purl.obolibrary.org/obo/ merged.owl");
 exit 0;
 
 sub runcmd {
